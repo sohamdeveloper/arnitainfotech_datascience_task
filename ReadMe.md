@@ -77,13 +77,14 @@ EDA was performed to understand data distribution and relationships:
 ## 📁 Project Structure
 
 student-performance-prediction/
-│── student-mat.csv
-│── cleaned_student_performance.csv
-│── cleaning.py
-│── eda.py
-│── main.py
-│── README.md
-│── .gitignore
+
+- │── student-mat.csv
+- │── cleaned_student_performance.csv
+- │── cleaning.py
+- │── eda.py
+- │── main.py
+- │── README.md
+- │── .gitignore
 
 ---
 
