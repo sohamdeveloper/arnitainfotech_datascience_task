@@ -78,10 +78,9 @@ EDA was performed to understand data distribution and relationships:
 
 student-performance-prediction/
 
-│── student-mat.csv  
-│── cleaned_student_performance.csv  
-│── cleaning.py  
-│── eda.py  
+│── students.csv  
+│── cleaned-student_performance.csv  
+│── clean.py  
 │── main.py  
 │── README.md  
 │── .gitignore
