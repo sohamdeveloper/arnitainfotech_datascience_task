@@ -1,5 +1,5 @@
 import pandas as pp
-df = pp.read_csv("student-mat.csv", sep=';')
+df = pp.read_csv("students.csv", sep=';')
 df = df.dropna()
 
 df['pass'] = df['G3'].apply(lambda x:1 if x >= 10 else 0)

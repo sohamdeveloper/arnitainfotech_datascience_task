@@ -4,7 +4,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
-df = pd.read_csv("student-mat.csv", sep=';')
+df = pd.read_csv("students.csv", sep=';')
 df['pass'] = df['G3'].apply(lambda x: 1 if x >= 10 else 0)
 X = df.loc[:, ['studytime', 'absences', 'G1', 'G2']]
 y = df.loc[:, 'pass']
