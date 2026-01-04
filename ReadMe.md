@@ -76,15 +76,15 @@ EDA was performed to understand data distribution and relationships:
 
 ## 📁 Project Structure
 
-**student-performance-prediction/**
+student-performance-prediction/
 
-**│── student-mat.csv**
-**│── cleaned_student_performance.csv**
-**│── cleaning.py**
-**│── eda.py**
-**│── main.py**
-**│── README.md**
-**│── .gitignore**
+│── student-mat.csv  
+│── cleaned_student_performance.csv  
+│── cleaning.py  
+│── eda.py  
+│── main.py  
+│── README.md  
+│── .gitignore
 
 ---
 
@@ -100,4 +100,4 @@ EDA was performed to understand data distribution and relationships:
 ## 👤 Author
 
 **Soham Tamboli**  
-Data Science Intern / Student
+Data Science Intern
